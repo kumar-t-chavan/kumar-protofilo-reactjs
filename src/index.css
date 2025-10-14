@@ -1,0 +1,357 @@
+ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.Link {
+  text-decoration: none;
+  font-size: x-large;
+  font-variant: small-caps;
+}
+
+nav {
+  /* background-color: black; */
+  height: 10vh;
+  display: grid;
+  place-items: center;
+  margin-right:100px ;
+}
+
+.Navber {
+  width: 100vw;
+
+}
+
+
+
+.logo {
+  color: black;
+  font-variant: small-caps;
+  position: absolute;
+  left: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin-left: 500px;
+  position: relative;
+
+}
+
+.contact {
+  background-color: rgb(47, 22, 22);
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: -5px;
+  left: 750px;
+  border-radius: 10px;
+
+
+}
+
+.contact .Link{
+  color: white;
+}
+
+
+li .Link {
+  color: black;
+  font-weight: bold;
+}
+
+
+.Main-Container-Home {
+  background-image: linear-gradient(to right, rgb(191, 185, 185), rgb(153, 106, 102));
+  height: 90vh;
+}
+
+ul li .Link {
+  position: relative;
+}
+
+.Link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #381409;
+  transition: width 1s ease;
+  /* 🌀 smooth animation */
+}
+
+.Link:hover::after {
+  width: 100%;
+  /* underline grows on hover */
+}
+
+.logo h1::first-letter {
+  color: brown;
+}
+
+.para {
+  word-wrap: break-word;
+}
+
+.reading-profile {
+  margin-top: 120px;
+  margin-left: 100px;
+  max-width: 50vw;
+  max-height: 50vh;
+}
+
+.para {
+  line-height: 1.3rem;
+  word-spacing: 5px;
+  padding-top: 20px;
+}
+
+.h1 {
+  padding-top: 10px;
+}
+
+h1::first-letter {
+  color: rgb(46, 137, 47);
+}
+
+h2::first-letter {
+  color: rgb(91, 91, 179);
+}
+
+.section-hero {
+  display: flex;
+}
+
+.img {
+  max-height: 50vh;
+  max-width: 50vw;
+  border-radius: 45%;
+}
+
+.photo {
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+samp::after {
+  content: "Frontend Developer";
+  animation: developer 10s infinite;
+}
+
+@keyframes developer {
+  10% {
+    content: "Backend Devloper"
+  }
+
+  60% {
+    content: "Full Stack Dev...";
+  }
+}
+
+
+.About-main-section {
+  height: 90vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, rgb(191, 185, 185), rgb(153, 106, 102));
+  display: grid;
+  place-content: center;
+}
+
+.Navbar {
+  background-image: linear-gradient(to right, rgb(191, 185, 185), rgb(153, 106, 102));
+}
+
+.hero-about {
+  border: 5px solid black;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.information {
+  line-height: 30px;
+}
+
+.summary {
+  line-height: 25px;
+  word-spacing: 10px;
+}
+
+.cv {
+  margin-top: 30px;
+  display: flex;
+  justify-content: end;
+  color: white;
+}
+
+.cv button  {
+  background-color: #381409;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+
+button a{
+   text-decoration: none;
+   color: white;
+}
+.box-1{
+  
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.main-skill-section{
+
+
+  background-image: linear-gradient(to right, rgb(191, 185, 185), rgb(153, 106, 102));
+  
+}
+
+
+.box-2{
+  
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.box-3{
+  
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.icon-services{
+  display: flex;
+  gap: 20px;
+}
+
+.look{
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 65px;
+ width: 65px;
+}
+
+.card{
+  animation: sroll 2s linear;
+}
+
+
+@media (min-width:300px) and (max-width:780px) {
+  
+  .box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+   .box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+   .box-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  ul{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+  }
+}
+
+
+
+
+/* Large screens / desktop (default) */
+/* Already your main CSS */
+
+/* Tablet: 781px to 1024px */
+@media (min-width: 781px) and (max-width: 1024px) {
+  .box-1, .box-2, .box-3 {
+    flex-direction: row;
+    flex-wrap: wrap;             /* allow wrapping if needed */
+    justify-content: center;
+    gap: 20px;
+  }
+
+  ul {
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .logo {
+    left: 10px;
+  }
+}
+
+/* Mobile: 300px to 780px */
+@media (max-width: 780px) {
+  .box-1, .box-2, .box-3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  .logo {
+    position: relative;
+    left: 0;
+    text-align: center;
+  }
+
+  .reading-profile {
+    margin-left: 20px;
+    max-width: 90vw;
+  }
+
+  .photo {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .contact{
+    position: absolute;
+    left: 500px;
+
+  }
+
+  
+}
