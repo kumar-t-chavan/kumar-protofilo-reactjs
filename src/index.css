@@ -134,7 +134,7 @@ h2::first-letter {
 .img {
   max-height: 50vh;
   max-width: 50vw;
-  border-radius: 45%;
+  border-radius: 40%;
 }
 
 .photo {
@@ -354,4 +354,26 @@ button a{
   }
 
   
+}
+.icon-services  :hover{
+  background-color: #381409;
+}
+
+
+.look{
+  transition: all 1s linear;
+}
+.look:hover{
+  transform: rotate(360deg);
+}
+
+.down{
+  margin-top: 50px;
+}
+.btn-512{
+  padding: 12px;
+  background-color: #381409;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CV from './KUMAR CV.pdf'
 const About = () => {
   return (
     <div>
@@ -25,12 +25,13 @@ const About = () => {
 
           <div className='cv'>
             <button>
-              <a href="" download>Download CV</a>
+              <a href={CV} download>Download CV</a>
             </button>
           </div>
           </div>
         </div>
       </div>
+      
     </div>
   )
 }

@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className='Navbar'>
         <nav>
           <span className='logo'>
-            <h1>ProtoFolio</h1>
+            <h1>PortFolio</h1>
           </span>
 
           {/* ✅ Add ul to wrap li */}

@@ -5,6 +5,7 @@ import github from './images/github.png'
 import instagram from './images/instagram.png'
 import youtube from './images/youtube.png'
 import linkedin from './images/linkedin.png'
+import CV from './KUMAR CV.pdf'
 const Home = () => {
   return (
     <div>
@@ -39,6 +40,13 @@ const Home = () => {
         <div className='look'>  <a href="https://www.linkedin.com/in/kumar-chavan1552/" ><img src={linkedin} alt="" height={"40px"} /></a></div>
           <div className='look'><a href="https://www.instagram.com/kumar_chavan__01/" ><img src={instagram} alt="" height={"40px"}/></a></div>
         <div className='look'>  <a href="https://www.youtube.com/" ><img src={youtube} alt="" height={"40px"}/></a></div>
+        </div>
+
+
+        <div className='down'>
+              <button className='btn-512'>
+                        <a href={CV} download>Download CV</a>
+                      </button>
         </div>
           </div>
 
