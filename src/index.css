@@ -377,3 +377,24 @@ button a{
   padding-right: 50px;
   border-radius: 5px;
 }
+
+@media (min-width: 300px) and (max-width: 780px) {
+  .section-hero{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: row;
+   
+  }
+.xyz{
+  display: none;
+}
+.hero-about{
+  flex-direction: column;
+  padding: 10px;
+}
+}
