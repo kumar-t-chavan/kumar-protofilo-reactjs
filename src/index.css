@@ -425,10 +425,50 @@ margin-top: 600px;
 
 .main-section-projects{
    background-image: linear-gradient(to right, rgb(191, 185, 185), rgb(153, 106, 102));
-   height: 90vh;
+   height: 190vh;
+  
+  display: grid;
+
+}
+
+.project-1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+.project-2{
    display: flex;
-   justify-content: space-evenly;
-   align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+
+@media (min-width:300px) and (max-width: 780px) {
+  
+  .project-1{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
    
+  }
+.project-2{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+.main-card{
+ width: 50vw;
+ height: 2vh;
+}
+
+  .main-section-projects{
+    height: 400vh;
+  }
+
 }
 
