@@ -472,3 +472,50 @@ margin-top: 600px;
 
 }
 
+
+.contact-container{
+  background-image: linear-gradient(to right, rgb(191, 185, 185), rgb(153, 106, 102));
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+ border: 5px solid #381409;
+  display: inline-block;
+  background-image: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label,input,textarea{
+  display: block;
+  margin-bottom: 10px;
+  padding: 3px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  
+}
+
+input{
+  font-weight: bold;
+}
+textarea{
+  color: rgb(11, 82, 77);
+  font-weight: bold;
+}
+.form-btn{
+  background-color:#381409 ;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+label{
+  font-variant: small-caps;
+  font-weight: bold;
+  margin-left: -30px;
+}

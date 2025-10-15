@@ -18,8 +18,8 @@ const Navbar = () => {
             <li><Link className='Link' to="/about">About</Link></li>
             <li><Link className='Link' to="/skills">Skills</Link></li>
             <li className='xyz'><Link className='Link' to="/projects">Projects</Link></li>
-            <li className='xyz'><Link className='Link' to="/achievement">Achievement</Link></li>
-            <li className='xyz'><Link className='Link' to="/contact" style={{backgroundColor: "#381409",padding: "8px",borderRadius:"3px",paddingLeft:"40px",paddingRight:"40px",color:"white"}}>Contact</Link></li>
+
+            <li className='xyz'><Link className='Link' to="/contact" style={{backgroundColor: "#381409",padding: "8px",borderRadius:"3px",paddingLeft:"40px",paddingRight:"40px",color:"white",inlineSize:"inline"}}>Contact us</Link></li>
           </ul>
         </nav>
       </div>
